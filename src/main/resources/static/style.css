@@ -1,0 +1,100 @@
+body {
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  color: rgb(253, 6, 6);
+  text-shadow: 2px 2px orange;
+  background-image: url("https://www.desktopbackground.org/download/1400x1050/2011/04/22/191870_full-hd-1080p-writing-wallpapers-hd-desktop-backgrounds-1920x1080_1920x1080_h.jpg");
+  background-size: 100% 150%;
+}
+#form {
+  width: 60%;
+  height: 550px;
+  margin: 0 auto;
+  box-shadow: 5px 5px 10px black;
+  border-radius: 30px;
+  background-color: rgba(6, 32, 61, 0.5);
+  color: aliceblue;
+  overflow: hidden;
+  text-shadow: none;
+}
+u {
+  color: red;
+  text-decoration: none;
+  position: relative;
+  left: 80px;
+}
+.steps {
+  width: 95%;
+  height: 500px;
+  padding: 30px;
+}
+#step1 {
+  top: 80px;
+  position: relative;
+  transition: 0.5s;
+}
+#step1 lebel {
+  font-size: 20px;
+  padding: 10px;
+}
+input {
+  width: 50%;
+  height: 50px;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+select {
+  border: 2px solid black;
+  border-radius: 10px;
+}
+#gend,
+#year,
+#score {
+  width: 20%;
+  height: 50px;
+}
+#step2 {
+  top: 120px;
+  position: relative;
+  transition: 0.5s;
+}
+textarea {
+  width: 50%;
+  height: 100px;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+#step3 {
+  top: 40px;
+  position: relative;
+  transition: 0.5s;
+}
+#deg,
+#ins {
+  width: 50%;
+  height: 50px;
+}
+#step4 {
+  top: 20px;
+  position: relative;
+  transition: 0.5s;
+}
+.btncls {
+  width: 80%;
+  display: flex;
+  justify-content: space-around;
+  margin: 20px auto;
+}
+button {
+  padding: 20px;
+  border: 2px solid gray;
+  background-color: cyan;
+  border-radius: 10px;
+  cursor: pointer;
+}
+button:hover {
+  background-color: gray;
+  border: 2px solid cyan;
+  color: cyan;
+}
